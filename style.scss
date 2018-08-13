@@ -1,0 +1,27 @@
+/* Background kanged from https://codepen.io/edmundojr/pen/xOYJGw */
+
+// Colors
+$bg-color: #303F9F;
+$dot-color: #3882E8;
+
+// Dimensions
+$dot-size: 2px;
+$dot-space: 30px;
+
+body {
+  background:
+    linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+    linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+    $dot-color;
+  background-size: $dot-space $dot-space;
+}
+
+circle {
+  stroke: #1565C0;
+  stroke-width: 0;
+}
+
+line {
+  stroke: #1A237E;
+  stroke-width: 3px;
+}

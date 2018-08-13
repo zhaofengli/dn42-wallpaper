@@ -1,0 +1,12 @@
+/* Background kanged from https://codepen.io/edmundojr/pen/xOYJGw */
+body {
+  background: linear-gradient(90deg, #303F9F 28px, transparent 1%) center, linear-gradient(#303F9F 28px, transparent 1%) center, #3882E8;
+  background-size: 30px 30px; }
+
+circle {
+  stroke: #1565C0;
+  stroke-width: 0; }
+
+line {
+  stroke: #1A237E;
+  stroke-width: 3px; }
